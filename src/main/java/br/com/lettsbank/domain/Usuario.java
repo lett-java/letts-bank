@@ -30,4 +30,6 @@ public class Usuario implements Serializable {
 	@Column(name = "data_nascimento")
 	private Date dataNascimento;
 
+	@Column
+	private Integer idade;
 }
